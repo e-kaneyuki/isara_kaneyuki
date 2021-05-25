@@ -1,0 +1,1490 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    color: #333;
+    width: 100%;
+    height: 100%;
+}
+
+p,
+h1,
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.textl {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.textm {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.header-in {
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px 50px 10px 10px;
+    z-index: 20;
+}
+
+.header-box img {
+    height: 45px;
+    width: 128px;
+    vertical-align: bottom;
+}
+
+.header-in p {
+    margin: 0;
+    display: inline-block;
+}
+
+.button {
+    width: 318px;
+    height: 44px;
+    border: 1px solid #D86c67;
+    background-color: #D86c67;
+    border-radius: 25px;
+    text-align: center;
+    float: right;
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+
+.button a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 44px;
+    border-radius: 25px;
+}
+
+.button :hover {
+    background-color: #d84940;
+}
+
+.isaratop {
+    background-image: url(./isara-image/main.png);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.isaratop img {
+    width: 317px;
+    height: 111px;
+}
+
+.isaratop .textl {
+    padding-top: 80px;
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.isaratop .textm {
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ask {
+    background-color: #ebb94c;
+    height: 600px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.ask .textm {
+    padding-top: 40px;
+}
+
+.ask-point {
+    background-color: #F9F2F4;
+    border-radius: 3px;
+    color: #C7264E;
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.button2 {
+    width: 80%;
+    height: 104px;
+    border: 1px solid #D86c67;
+    background-color: #D86c67;
+    border-radius: 50px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.button2 a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 104px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 28px;
+    display: block;
+    height: 100%;
+}
+
+.button2 :hover {
+    background-color: #d84940;
+}
+
+.ask h2 {
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+.sns {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/*//////////////////freedom////////////////////*/
+
+.freedom {
+    background-image: url(./isara-image/introbottom.jpg);
+    background-size: cover;
+    height: 660px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.textbox .textl {
+    padding: 30px 0 30px 0;
+    font-size: 25px;
+}
+
+.textbox {
+    width: 860px;
+    max-width: calc(100% - 40px);
+    position: relative;
+    margin: 0 auto;
+}
+
+.textbox::before,
+.textbox::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.textbox::before {
+    border-top: 4px solid #EAB857;
+    border-left: 4px solid #EAB857;
+    top: 0;
+    left: 0;
+}
+
+.textbox::after {
+    border-right: 4px solid #EAB857;
+    border-bottom: 4px solid #EAB857;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*/////ここまで　3/11 //////*/
+
+.underline {
+    background: linear-gradient(transparent 70%, #EAB857 50%);
+}
+
+.about-btn {
+    color: #ffffff;
+    background-color: #EAB857;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    margin: 0 auto;
+}
+
+.about-btn p {
+    line-height: 80px;
+}
+
+.about {
+    background-color: #FEF5DF;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.about-box {
+    margin: 30px;
+    margin-bottom: 0;
+    padding: 20px;
+    padding-bottom: 0;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid #ECB94C;
+    height: 230px;
+}
+
+.picture-box {
+    text-align: center;
+    width: 155px;
+    height: 135px;
+}
+
+.picture-box p {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.about .textm {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*////////   3/12~ aboutsecond  ///////////*/
+
+.aboutsecond {
+    background-image: url(./isara-image/aboutsecondbg.jpg);
+    background-size: cover;
+    height: 400px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.aboutsecond p {
+    color: #ffffff;
+    margin: 20px;
+}
+
+.aboutsecond .textl {
+    font-size: 30px;
+    font-family: bold;
+}
+
+.aboutsecond .textm {
+    font-size: 20px;
+    font-family: bold;
+}
+
+.yellowtext {
+    color: #ECB94C;
+}
+
+.flexsecond {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebox {
+    background-color: #ffffff;
+    margin: 7px;
+    height: 160px;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+.sidebox .step {
+    background-color: #ECB94C;
+    font-family: bold;
+}
+
+.sidebox .txtxs {
+    color: #1A1A1A;
+    font-family: bold;
+}
+
+.aboutthird {
+    padding: 40px 20px;
+    background-color: #006EA9;
+    height: 60px;
+}
+
+.aboutthird p {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: bold;
+}
+
+.aboutthird .yellow {
+    color: #ECB94C;
+}
+
+.learning {
+    height: 500px;
+    background-color: #ffffff;
+    padding: 35px 40px;
+}
+
+.learning-flexbox {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.learning-flexbox img {
+    padding: 0 20px;
+    width: 180px;
+    height: 180px;
+}
+
+.learning .textl {
+    font-size: 30px;
+}
+
+.learning p {
+    padding-top: 30px;
+}
+
+.merit {
+    padding-top: 40px;
+    background-color: #FEF5E0;
+    height: 1000px;
+    width: 100%;
+}
+
+.merit-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.learnbox {
+    padding: 20px;
+    width: 360px;
+}
+
+.learnbox p {
+    text-align: left;
+}
+
+.learnbox .learn-point {
+    font-family: bold;
+    color: #ECB94D;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.learnbox .learn-text {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.merit-plus {
+    height: 250px;
+    width: 90%;
+    margin: 30px auto;
+    border: solid #ECB94C;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.merit-plus .yellow-text {
+    margin-top: 40px;
+    color: #ECB94C;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.merit-plus .textm {
+    margin: 15px;
+    font-weight: bold;
+}
+
+.merit-plus .texts {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.merit .notes {
+    font-size: 13px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.teacher {
+    background-image: url(./isara-image/teacherbg.jpg);
+    height: 1600px;
+    background-size: cover;
+    padding-top: 80px;
+    color: #ffffff;
+}
+
+.teacher .text {
+    font-size: 30px;
+}
+
+.teacher .comment {
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+
+.teacherbox1 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.teacherbox2 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 300px;
+    justify-content: center;
+}
+
+
+/*///// someya //////////////////////////////*/
+
+.someya {
+    border: solid #ffffff;
+    margin: 0 20px;
+    padding: 40px 30px;
+    width: 300px;
+    height: 330px;
+    position: relative;
+}
+
+.someya p {
+    margin-bottom: 20px;
+}
+
+.someya .introduction {
+    text-align: left;
+    line-height: 27px;
+}
+
+.someya-photo {
+    height: 198px;
+    width: 198px;
+    border-radius: 50%;
+    position: absolute;
+    top: -170px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+/*///// narita ///////////////////////////*/
+
+.narita {
+    border: solid #ffffff;
+    margin: 0 20px;
+    padding: 40px 30px;
+    width: 300px;
+    height: 330px;
+    position: relative;
+}
+
+.narita p {
+    margin-bottom: 20px;
+}
+
+.narita .introduction {
+    text-align: left;
+    line-height: 27px;
+}
+
+.narita-photo {
+    height: 198px;
+    width: 198px;
+    border-radius: 50%;
+    position: absolute;
+    top: -170px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+/*///// ootaki ///////////////////////////*/
+
+.ootaki {
+    border: solid #ffffff;
+    margin: 0 20px;
+    padding: 40px 30px;
+    width: 300px;
+    height: 330px;
+    position: relative;
+}
+
+.ootaki p {
+    margin-bottom: 20px;
+}
+
+.ootaki .introduction {
+    text-align: left;
+    line-height: 27px;
+}
+
+.ootaki-photo {
+    height: 198px;
+    width: 198px;
+    border-radius: 50%;
+    position: absolute;
+    top: -170px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+/*///// sakauti ///////////////////////*/
+
+.sakauti {
+    border: solid #ffffff;
+    margin: 0 20px;
+    padding: 40px 30px;
+    width: 300px;
+    height: 330px;
+    position: relative;
+}
+
+.sakauti p {
+    margin-bottom: 20px;
+}
+
+.sakauti .introduction {
+    text-align: left;
+    line-height: 27px;
+}
+
+.sakauti-photo {
+    height: 198px;
+    width: 198px;
+    border-radius: 50%;
+    position: absolute;
+    top: -170px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+/*//////   why  ////////////////////////////*/
+
+.why {
+    height: 250px;
+    position: relative;
+    background-color: #ECB94C;
+}
+
+.why .QA-btn {
+    color: #ECB94C;
+    background-color: #ffffff;
+    line-height: 80px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+/*/////////////   3/15 鉤カッコの意味が分からない///↓↓ここから///////////*/
+
+.question {
+    width: 860px;
+    max-width: calc(100% - 40px);
+    position: relative;
+    margin: 0 auto;
+    padding-top: 130px;
+    color: #ffffff;
+}
+
+.question p {
+    font-size: 30px;
+}
+
+.question::before,
+.question::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.question::before {
+    border-top: 4px solid #ffffff;
+    border-left: 4px solid #ffffff;
+    top: 120px;
+    left: 0;
+}
+
+.question::after {
+    border-right: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*/////////////鉤カッコの意味が分からない///↑↑ここまで     3/15  なんとなくわかった気がする  ///////////*/
+
+
+/*//////////      三角形の作成   start   ///////////////////////////*/
+
+.why:after {
+    content: " ";
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 25px solid transparent;
+    border-top-color: #ebb94d;
+    top: 100%;
+    left: 50%;
+    margin-left: -25px;
+}
+
+
+/*/////////////////三角形の作成      end  ///////////////*/
+
+.answer {
+    padding: 45px;
+    height: 1000px;
+    background-color: #ffffff;
+}
+
+.answer .textl {
+    font-size: 33px;
+    letter-spacing: 3px;
+}
+
+.answer .texts {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.answer .evidence {
+    font-size: 16px;
+}
+
+.monitor {
+    padding: 40px 0;
+    color: #797979;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.monitor .textm {
+    text-align: left;
+    width: 400px;
+    height: 150px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.monitor img {
+    border: solid #ebb94d;
+}
+
+.textm .kredo-line {
+    text-decoration: underline solid #797979;
+}
+
+
+/*////// class  start  全体 /////////*/
+
+.class {
+    height: 950px;
+    background-image: url(isara-image/classbg.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+
+.class .textl {
+    padding-top: 70px;
+    font-size: 30px;
+}
+
+.class .texts {
+    font-size: 18px;
+}
+
+
+/*////////////　　左右同時　　/////////////////*/
+
+.study {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    height: 800px;
+    text-align: center;
+}
+
+.study p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.study ul {
+    list-style: none;
+    font-size: 18px;
+    line-height: 42px;
+    color: #000000;
+    padding: 2px;
+}
+
+.study li {
+    display: list-item;
+    border: dotted #E5E5E5 1px;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.study ul li:last-child {
+    border: none;
+}
+
+
+/*////////　study　左側　 prestudy　/////////////////*/
+
+.prestudy {
+    margin: 20px;
+    background-color: #006EA9;
+    width: 370px;
+    height: 590px;
+}
+
+
+/*////////　study　右側　 traveling　///////////////*/
+
+.traveling {
+    margin: 20px;
+    height: 368px;
+    width: 350px;
+    background-color: #006EA9;
+}
+
+
+/*//////////class end////////////////////*/
+
+.risk-support {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: #006EA9;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+
+/*/////////////     flowchart  start      ////////////////////////*/
+
+.flowchart {
+    padding: 40px;
+    height: 1800px;
+    margin: 0 auto;
+}
+
+.flowchart .textl {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.flowchart .overview {
+    text-align: center;
+}
+
+.overview {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.skype {
+    background-color: #FEF5DF;
+    width: 1050px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.skype .left {
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 15px;
+}
+
+.skype-caption {
+    margin-top: 10px;
+}
+
+.skype .right {
+    margin: 0 15px;
+}
+
+.skype-text {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.skype .introduce {
+    text-align: left;
+    font-size: 15px;
+}
+
+.connect1 {
+    width: 700px;
+    height: 30px;
+    margin: 0 auto;
+    border-left: 2.5px solid #F8D17C;
+    border-bottom: 2.5px solid #F8D17C;
+}
+
+.connect2 {
+    width: 700px;
+    height: 30px;
+    margin: 0 auto;
+    border-right: 2.5px solid #F8D17C;
+}
+
+.connect3 {
+    width: 700px;
+    height: 30px;
+    margin: 0 auto;
+    border-right: 2.5px solid #F8D17C;
+    border-bottom: 2.5px solid #F8D17C;
+}
+
+.connect4 {
+    width: 700px;
+    height: 30px;
+    margin: 0 auto;
+    border-left: 2.5px solid #F8D17C;
+}
+
+
+/*///////    pretask //////////////?*/
+
+.pretask {
+    background-color: #FEF5DF;
+    width: 1050px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.pretask .left {
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 15px;
+}
+
+.pretask-caption {
+    margin-top: 10px;
+}
+
+.pretask .right {
+    margin: 0 15px;
+}
+
+.pretask-text1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.pretask-text2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.pretask .introduce {
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+/*////////  travel  ////////////////*/
+
+.travel {
+    background-color: #FEF5DF;
+    width: 1050px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.travel .left {
+    text-align: center;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 15px;
+}
+
+.travel-caption {
+    margin-top: 10px;
+}
+
+.travel .right {
+    margin: 0 15px;
+}
+
+.travel-text1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.travel-text2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.travel-introduce {
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+/*///////  study  /////////////////*/
+
+.studys {
+    background-color: #FEF5DF;
+    width: 1050px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.studys .left {
+    text-align: center;
+    width: 160px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 15px;
+}
+
+.studys-caption {
+    margin-top: 10px;
+}
+
+.studys .right {
+    margin: 0 15px;
+}
+
+.right .studys-text1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.right .studys-text2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.right .studys-introduce {
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+/*///////////   support   ////////////*/
+
+.support {
+    background-color: #FEF5DF;
+    width: 1050px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px 30px 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.support .left {
+    text-align: center;
+    width: 150px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 5px 5px 0;
+    margin: 0 15px 0 0;
+}
+
+.support-caption {
+    margin-top: 10px;
+}
+
+.support .right {
+    margin: 0 15px;
+}
+
+.support-text1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.support-text2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.support .support-introduce {
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+/*////////     flowchart  end   ////////////////*/
+
+
+/*////  bankoku  /////*/
+
+.bankoku {
+    height: 480px;
+    width: 100%;
+    background-image: url(./isara-image/bangkokbg.jpg);
+    background-size: cover;
+}
+
+.bankoku p,
+ul {
+    padding-left: 100px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.bankoku .reason1 {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.bankoku .reason2 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.bankoku li {
+    list-style: none;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.bankoku .reason4 {
+    padding-top: 16px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+/*/////  join  ///////////*/
+
+.join {
+    padding-top: 50px;
+    height: 700px;
+    background-color: #F7C23C;
+}
+
+.join-top {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.join-sec {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.join span {
+    color: #ffffff;
+}
+
+.special {
+    position: relative;
+    border: #ffffff solid 2px;
+    height: 380px;
+    width: 1150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px auto;
+}
+
+.special-sur {
+    padding: 5px;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #ffffff;
+    height: 250px;
+    width: 250px;
+    font-size: 14px;
+}
+
+.specials {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.special .text-yellow {
+    color: #ECB94C;
+    font-size: 28px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+.special::before {
+    content: "iSaraは『実質０円』！更なる特典もあります。";
+    position: absolute;
+    top: -60px;
+    left: 25%;
+    font-size: 28px;
+    font-weight: bold;
+    height: 80px;
+    width: 610px;
+    background-color: #F7C23C;
+    text-align: center;
+}
+
+
+/*///////  not-volunteer   //////////*/
+
+.specialdetail {
+    height: 500px;
+    background-image: url(./isara-image/specialdetail.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+
+.specialdetail .textl {
+    font-size: 29px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.specialdetail .textm {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.commit {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    font-size: 25px;
+    height: 60px;
+    width: 850px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.commit::before {
+    content: " ";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-top: 4px solid #ffffff;
+    border-left: 4px solid #ffffff;
+    top: 0;
+    left: 0;
+}
+
+.commit::after {
+    content: " ";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-right: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    right: 0;
+    bottom: 0;
+}
+
+.max-value {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/*////////  message  //////////////*/
+
+.message {
+    background-color: #ffffff;
+    height: 600px;
+}
+
+.message .textl {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.message .textm {
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+.message-main {
+    height: 400px;
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.message-left {
+    height: 400px;
+    width: 192px;
+    margin-right: 35px;
+}
+
+.massage-right p {
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.message-ul {
+    letter-spacing: 2px;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #333;
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/*//////  document-request  ///////////*/
+
+
+/*///text-alignは○○
+　　　align-itemsは○○///////*/
+
+.document-request {
+    height: 600px;
+    background-color: #F7C23C;
+    padding-top: 60px;
+}
+
+.document-request .textl {
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.document-request .textm {
+    font-size: 16px;
+    padding-top: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.document-request-input {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.document-request-input .name {
+    height: 50px;
+    width: 800px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    border: none;
+    padding: 0 10px;
+}
+
+.document-request-input .email {
+    height: 50px;
+    width: 800px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    border: none;
+    padding: 0 10px;
+}
+
+.document-request-input .free-text {
+    height: 120px;
+    width: 800px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    border: none;
+    padding: 0 10px;
+}
+
+.document-request-input .button {
+    margin: 0;
+    height: 50px;
+    width: 800px;
+    color: #ffffff;
+    font-size: 27px;
+    letter-spacing: 20px;
+    cursor: pointer;
+}
+
+
+/*////////  Frequently-Asked-Questions  /////////////*/
+
+.Frequently-Asked-Questions {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: 1150px;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Frequently-Asked-Questions .textl {
+    font-size: 28px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.Frequently-Asked-Questions .Q-A {
+    height: 1000px;
+    width: 900px;
+    margin: 30px auto;
+}
+
+.Frequently-Asked-Questions .question2 {
+    position: relative;
+    border: solid #333 1px;
+    border-radius: 5px;
+    padding-left: 25px;
+    margin: 5px;
+    text-align: left;
+    height: 60px;
+    width: 800px;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.Frequently-Asked-Questions span {
+    position: absolute;
+    right: 5px;
+}
+
+.Frequently-Asked-Questions .question2:hover {
+    text-decoration: underline #333;
+}
+
+.Frequently-Asked-Questions .answer {
+    display: none;
+    height: auto;
+    width: 800px;
+    text-align: left;
+    align-items: center;
+    padding: 5px 25px;
+    font-size: 16px;
+}
+
+
+/*/////////  footer  ////////////*/
+
+.footer {
+    height: 100px;
+    background-color: #ECECEC;
+}
