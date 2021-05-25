@@ -1,0 +1,105 @@
+html body {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 20;
+    background-color: white;
+}
+
+.header-left {
+    margin-left: 40px;
+}
+
+.header-left img,
+p {
+    float: left;
+}
+
+.header-container img {
+    height: 44.64px;
+    width: 128px;
+}
+
+.header-words {
+    width: 237px;
+    height: 22px;
+    font-size: 7px;
+}
+
+.header-button {
+    padding: 10px 10px;
+}
+
+.header-right {
+    float: right;
+    margin-right: 40px;
+}
+
+.eyecatch-container {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.eyecatch {
+    position: relative;
+}
+
+.eyecatch-background {
+    padding-top: 80px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.eyecatch-top-words {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    z-index: 10;
+    font-size: 30px;
+    color: black;
+}
+
+.eyecatch-isara-image {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    z-index: 10;
+}
+
+.eyecatch-bottom-words {
+    position: absolute;
+    top: 105%;
+    right: 41%;
+    text-align: center;
+    z-index: 10;
+    font-size: 20px;
+    color: black;
+}
+
+.text-container p {
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.text {
+    display: block;
+    position: center;
+}
